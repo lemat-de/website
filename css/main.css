@@ -1,0 +1,40 @@
+@font-face {
+  font-family: OpenSansLight;
+  src: url(../assets/opensans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../assets/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../assets/opensans/OpenSans-Bold.ttf);
+}
+
+html {
+  font-family: OpenSans;
+  background-color: #31293f;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23939393' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: azure;
+}
+
+html body header {
+  text-align: center;
+}
+
+html body header h1 {
+  font-family: OpenSansBold;
+}
+
+html body main article p span {
+  font-family: OpenSansBold;
+}
+
+.online {
+  color: lawngreen;
+}
+
+.offline {
+  color: darkred;
+}
