@@ -49,7 +49,7 @@ html body main article p span {
   color: darkred;
 }
 
-html body footer{
+html body footer p{
   text-align: center;
 }
 
@@ -80,6 +80,10 @@ html body footer{
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
   background: #31293f;
+}
+
+html body footer div#openModal.modalDialog div p{
+  text-align: left;
 }
 
 .close {
