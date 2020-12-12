@@ -7,6 +7,7 @@
         <meta name="author" content="Lennard Indlekofer <info@lennard0711.eu>">
         <link rel="stylesheet" href="css/main.css">
         <title>lemat.de - In the cloud since 2017 | Privates Servernetzwerk</title>
+        <script src="js/modal.js"></script>
     </head>
     <body>
         <header>
@@ -17,10 +18,26 @@
             <article>
                 <h3>Öffentliche Dienste</h3>
                 <p>Teamspeak³ Server - <a href="ts3server://lemat.de">lemat.de</a> | Status: <span class="status-ts3 online">ONline</span></p>
-                <p>Minecraft Server - mc.lemat.de | Status: <span class="status-mc offline">OFFline</span></p>
-                <p>GMod TTT Server - ttt.lemat.de | Status: <span class="status-ttt offline">OFFline</span></p>
+                <p>Minecraft Server - <a href="#">mc.lemat.de</a> | Status: <span class="status-mc offline">OFFline</span></p>
+                <p>GMod TTT Server - <a href="steam://connect/ttt.lemat.de:27015">ttt.lemat.de</a> | Status: <span class="status-ttt offline">OFFline</span></p>
             </article>
         </main>
-        <footer></footer>
+        <footer>
+            <p><a href="#openModal">Kontakt</a></p>
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Kontakt</h2>
+                    <h3>Allgemein</h3>
+                    <p>E-Mail: <a href="mailto:info@lemat.de">info@lemat.de</a></p>
+                    <p>Fon: +49 711 25277365</p>
+                    <p>Fax: +49 711 25277365</p>
+                    <h3>Lennard</h3>
+                    <p>E-Mail: <a href="mailto:lennard@lemat.de">lennard@lemat.de</a></p>
+                    <h3>Matthias</h3>
+                    <p>E-Mail: <a href="mailto:matthias@lemat.de">matthias@lemat.de</a></p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
